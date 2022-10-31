@@ -1,0 +1,48 @@
+@import url('fonts/rubik.css');
+@import url('bootstrap.min.css');
+
+body {
+    font-family: 'Rubik';
+    overflow-x: hidden;
+}
+
+
+nav a {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+nav a:hover {
+    background-color: #42b983;
+    color: #242424;
+    transition: 0.75s;
+}
+nav a.router-link-exact-active {
+    color: #242424 !important;
+    background-color: #42b983;
+}
+
+
+.main {
+    padding: 10px;
+}
+
+
+.home .result .col-md-6 {
+    margin-bottom: 20px;
+}
+
+.home .result .card {
+    padding: 20px;
+}
+.home .result .card img {
+    width: 100% !important;
+}
+
+
+.about {
+    text-align: center;
+}
